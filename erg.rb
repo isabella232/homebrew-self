@@ -22,5 +22,6 @@ class Erg < Formula
     cellar :any
     sha1 "5d8da89bddeb5b0a8b280469c406973ad31c895e" => :mavericks
     sha256 "59dab808928a2a5d22f09b3c85563b474efdeabfc8445430323eb720dc4ebdc9" => :yosemite
+    sha256 "fc3f255620471bdeb8cd7e73ec7aafd89f27be0e491931bc1a0b9fde2c660e81" => :el_capitan
   end
 end
