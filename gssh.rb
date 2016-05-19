@@ -1,10 +1,10 @@
 require "formula"
 
 class Gssh < Formula
-  homepage "https://github.com/syamp/gssh"
-  url "https://github.com/syamp/gssh/archive/v1.0.3.tar.gz"
-  head "https://github.com/syamp/gssh.git"
-  sha1 "a960bf083f9c74de09c199123ed7441bd1650693"
+  homepage "https://github.com/square/gssh"
+  url "https://github.com/square/gssh/archive/v1.0.1.tar.gz"
+  head "https://github.com/square/gssh.git"
+  sha1 "db2d9b087638838f836c8ad9cf63014bbfeefc85"
 
   depends_on 'go' => :build
 
