@@ -8,6 +8,11 @@ class Erg < Formula
 
   depends_on 'go' => :build
 
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "52c6de433e7ade687b434f0ce4084cd276db87a6e20435c7b8698a0c131fde57" => :sierra
+  end
+
   def install
     ENV['GOPATH'] = buildpath
     system 'go', 'get', 'github.com/square/erg'
